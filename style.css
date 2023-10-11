@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#main {
+ width: 100%;
+ height: 100%;
+ /* background-color: blue; */
+ display: flex;
+
+}
+#part1 {
+    width: 23%;
+    height: 100%;
+    background-color: #ab8f97;
+    height: 100%;
+}
+#part2 {
+    width: 60%;
+    background-color: #bea5ab;
+    height: 100%;
+    background-image: url(/ayo-ogunseinde-6W4F62sN_yI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+#part3 {
+    width: 15%;
+    height: 100%;
+    background-color: #ab8f97;
+    height: 100%;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #47272e86;
+    
+}
+#text-div{
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+#text-div>h1 {
+    font-size: 95px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    line-height: 78px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 5px;
+}
+#small-image {
+    height: 300px;
+    width: 250px;
+    background-image: url(/michael-dam-mEZ3PoFGs_k-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    right: 14%;
+    transform: translate(0,-50%);
+
+}
+#vertical-text {
+    position: absolute;
+    right: -34%;
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+    /* top: 0.5%; */
+}
+#vertical-text>h1 {
+    font-size: 43px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    -webkit-text-stroke: 1px ;
+    -webkit-text-stroke-color: #fff;
+    color: transparent;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    
+    
+
+}
